@@ -41,7 +41,7 @@ function App() {
                 <td>{`${member.FirstName} ${member.MiddleName} ${member.LastName}`}</td>
                 <td>
                   <button className="delete" onClick={() => removeMemberHandler(member.id)}>
-                    Hapus
+                    Delete
                   </button>
                 </td>
               </tr>
